@@ -2,7 +2,6 @@ package dev.upcraft.examplemod;
 
 import dev.upcraft.sparkweave.api.entrypoint.MainEntryPoint;
 import dev.upcraft.sparkweave.api.platform.ModContainer;
-import net.minecraft.resources.ResourceLocation;
 
 public class ExampleMod implements MainEntryPoint {
 	public static final String MOD_ID = "examplemod";
@@ -11,5 +10,4 @@ public class ExampleMod implements MainEntryPoint {
 	public void onInitialize(ModContainer mod) {
 
 	}
-
 }
